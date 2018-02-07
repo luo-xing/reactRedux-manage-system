@@ -1,2 +1,9 @@
-node_modules/
-.idea/
+
+# dependencies
+/node_modules
+
+# misc
+*.idea
+
+package-lock.json
+npm-debug.log*
