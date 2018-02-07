@@ -1,6 +1,6 @@
 var path = require('path')
 module.exports = {
-    entry: './main.js', // 入口文件路径
+    entry: './src/client/root.js', // 入口文件路径
     output: {
         //path是nodeJS的一个基础模块，这里用来获取绝对路径
         path: path.resolve(__dirname, 'dist'),
